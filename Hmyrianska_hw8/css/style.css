@@ -1,0 +1,70 @@
+body {
+  background: #fffeee;
+  font-family: "Roboto", sans-serif;
+}
+
+div {
+  padding: 10px 0;
+}
+
+input,
+textarea,
+select {
+  padding: 5px;
+  border-radius: 5px;
+  border-color: gainsboro;
+}
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: none;
+  box-shadow: 2px 3px 5px 3px rgb(150 158 174 / 80%);
+}
+
+.container {
+  margin: 50px auto 0;
+  width: 35%;
+  max-width: 400px;
+  background-image: linear-gradient(180deg, #85ffbd 0%, #fffb7d 100%);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px 2px rgba(241, 247, 204, 0.55);
+}
+
+label:not(.sex, .agreement) {
+  display: inline-block;
+  width: 130px;
+}
+
+p {
+  display: inline-block;
+  width: 130px;
+}
+
+textarea {
+  resize: none;
+}
+
+.block-btn {
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #f8f7e3;
+  border: 1px solid #f8f7e3;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+  font-family: "Roboto", sans-serif;
+}
+
+button:hover,
+button:focus-visible,
+button:active {
+  outline: none;
+  border-color: #fffeee;
+  background-color: #fffeee;
+  box-shadow: 2px 3px 5px 3px hsla(61, 17%, 50%, 0.856);
+  cursor: pointer;
+}
