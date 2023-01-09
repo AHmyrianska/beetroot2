@@ -1,2 +1,11 @@
 @import url('./_normalize.css');
 @import url('./_vars.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font-family);
+    margin: 0;
+}
