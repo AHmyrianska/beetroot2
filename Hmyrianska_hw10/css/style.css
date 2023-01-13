@@ -1,0 +1,141 @@
+@import url("./weather-icons-wind.css");
+@import url("./weather-icons-wind.min.css");
+@import url("./weather-icons.css");
+@import url("./weather-icons.min.css");
+
+@font-face {
+  font-family: "Lucida Sans Unicode", sans-serif;
+  src: url("../assets/fonts/Lucida.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Sans Unicode", sans-serif;
+  background-color: #3399cc;
+  border: 25px solid #2b81ac;
+  height: 100vh;
+  color: #fff;
+}
+
+main {
+  margin: 60px 125px 0;
+  max-width: 1200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.item {
+  border: 1px solid #fff;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.container,
+.item {
+  transition: all 0.1s ease-in;
+}
+
+.container:hover {
+  background-color: #fff;
+}
+
+.container:hover .item {
+  opacity: 0.7;
+}
+
+.container:hover .item:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.first-row-item-one {
+  flex-grow: 2;
+  background-color: #3399cc;
+}
+
+.first-row-item-two {
+  flex-grow: 1;
+  background: #33cccc;
+}
+
+.first-row-item-three {
+  flex-grow: 1;
+  background: #996699;
+}
+
+.second-row-item-one {
+  flex-grow: 1;
+  background: #c24747;
+}
+
+.second-row-item-two {
+  flex-grow: 1;
+  background: #e2674a;
+}
+
+.second-row-item-three {
+  flex-grow: 1;
+  background: #ffcc66;
+}
+
+.second-row-item-four {
+  flex-grow: 1;
+  background: #99cc99;
+}
+
+.third-row-item-one {
+  flex-grow: 1;
+  background: #669999;
+}
+
+.third-row-item-two {
+  flex-grow: 2;
+  background: #cc6699;
+}
+
+.third-row-item-three {
+  flex-grow: 1;
+  background: #339966;
+}
+
+.fourth-row-item-one {
+  flex-grow: 4;
+  background: #666699;
+}
+
+h1 {
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 36px;
+}
+
+i {
+  font-size: 42px;
+  vertical-align: text-bottom;
+}
+
+p.small {
+  font-size: 16px;
+  margin-top: 10px;
+}
